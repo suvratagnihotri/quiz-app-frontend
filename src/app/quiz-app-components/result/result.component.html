@@ -1,0 +1,31 @@
+<div class="container mt-5">
+    <div class="card result-container bg-light shadow">
+      <div class="card-body text-center">
+        <h2 class="text-success mb-4">Quiz Result</h2>
+        
+        <!-- Total Score -->
+        <div class="mb-3">
+          <h4 class="text-info">Total Score</h4>
+          <p class="display-4 text-primary">{{ this.totalScore }}</p>
+        </div>
+  
+        <!-- Scored -->
+        <div class="mb-3">
+          <h4 class="text-info">Your Score</h4>
+          <p class="display-4 text-primary">{{ this.score }}</p>
+        </div>
+  
+        <!-- Title -->
+        <div class="mb-4">
+          <h4 class="text-info">Quiz Title</h4>
+          <p class="lead">{{ this.title }}</p>
+        </div>
+  
+        <!-- Additional Styling and Animation -->
+        <div class="py-3 bg-success rounded text-white animated fadeIn delay-1s">
+          <p class="lead mb-0">Congratulations! You've completed the quiz.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
